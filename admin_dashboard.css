@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #040D12;
+}
+
+/* Navbar */
+
+.nav-bar {
+  padding: 15px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #333;
+  margin-bottom: 30px;
+}
+
+.nav-bar .logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar .logo a {
+  text-decoration: none;
+}
+
+.nav-bar .logo h1 {
+  margin-left: 20px;
+  text-decoration: none;
+  color: beige;
+}
+
+.nav-bar .logo img {
+  width: 80px;
+  height: 80px;
+}
+
+.nav-bar .navigations .nav-btn {
+  padding: 8px 11px;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid beige;
+  background: #0e2432;
+}
+
+.nav-bar .navigations .nav-btn a {
+  text-decoration: none;
+  color: beige;
+}
+
+/* Member list */
+
+.member-list h2 {
+  color: beige;
+}
+
+.member-list .row-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0e2432;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 7px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 1px solid #888;
+}
+
+.member-list .row-div .btn-export {
+  text-decoration: none;
+  color: beige;
+  background: #040D12;
+  padding: 8px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid beige;
+}
+
+.member-list table {
+  border: 1px solid #888;
+}
+
+.member-list table th{
+  background: #040D12;
+  color: beige;
+}
+
+.member-list table td{
+  vertical-align: middle;
+  background-color: #0e2432;
+  color: beige;
+}
+
+/* Trainer List */
+
+.trainer-list h2 {
+  color: beige;
+}
+
+.trainer-list .row-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0e2432;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 7px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 1px solid #888;
+}
+
+.trainer-list .row-div .btn-export {
+  text-decoration: none;
+  color: beige;
+  background: #040D12;
+  padding: 8px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid beige;
+}
+
+.trainer-list table {
+  border: 1px solid #888;
+}
+
+.trainer-list table th{
+  background: #040D12;
+  color: beige;
+}
+
+.trainer-list table td{
+  vertical-align: middle;
+  background-color: #0e2432;
+  color: beige;
+}
+
+/* Assign Trainer List */
+
+.list {
+  margin-top: 40px;
+  height: 50%;
+  width: 50%;
+  position: relative;
+}
+
+.assign-list {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, 0%);
+  color: beige;
+}
+
+.assign-list form label {
+  margin-bottom: 10px;
+}
+
+.assign-list form select {
+  margin-bottom: 30px;
+}
+
+.assign_btn {
+  color: beige;
+  background: #0e2432;
+  padding: 8px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid beige;
+  margin-bottom: 20px;
+}
+
+.deleteBtn {
+  background: #040D12;
+  color: beige;
+  outline: none;
+  border: 1px solid #888;
+  cursor: pointer;
+  padding: 7px 7px;
+  font-size: 15px;
+  border-radius: 10px;
+}

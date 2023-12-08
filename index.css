@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('./images/gym-page.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  width: 500px;
+  padding: 80px 50px;
+  border-radius: 15px;
+}
+
+.form input {
+  width: 100%;
+  height: 35px;
+  padding: 20px 45px 20px 10px;
+  font-size: 16px;
+  margin: 10px 0;
+  outline: none;
+  border: 1px solid #888;
+  border-radius: 5px;
+}
+
+.usernameInputDiv, .passwordInputDiv {
+  display: flex;
+  align-items: center;
+}
+
+.usernameInputDiv i, .passwordInputDiv i {
+  position: absolute;
+  right: 65px;
+}
+
+h2 {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+
+.paragraph {
+  color: white;
+}
+
+.btn {
+  width: 100%;
+  height: 45px;
+  margin-top: 35px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  font-size: 17px;
+  color: #333;
+  font-weight: 600;
+}
+
+.error {
+  color: rgb(229, 17, 17);
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 17px;
+}
